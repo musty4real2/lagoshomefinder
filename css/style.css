@@ -1,0 +1,82 @@
+* {margin:0;padding:0}
+body{background:#000; font-family:Tahoma, Geneva, sans-serif; color:#fff;padding:50px 0}
+div,p,li{font-size:12px}
+
+.description{padding:16px;margin:10px 0;background:#eee}
+
+.h1name{
+	font-family:"Broadway";
+	text-align:center;
+	margin-bottom:30px;
+	text-decoration:underline;
+	color:#999;
+	font-size:28px;
+	}
+	
+	#search{
+		border:1px solid #141414;}
+
+#wrapper{
+	width:80%;
+	margin:auto;
+	}
+	
+	
+	a{
+		color:#06C;
+		text-decoration:none;
+		
+		}
+	a:hover{
+		color:#F60;
+		text-decoration:underline;
+		}
+
+.propimg{
+	float:left;
+	margin:5px;
+	border:1px solid #333;
+	padding:3px;}
+	
+.price{
+	color:#F60;}
+	#loading{
+	visibility:hidden;
+	padding-left:5px;
+}
+
+#ajax_response{
+	border : 1px solid #8789E7;
+	background:#333;
+	position:absolute;
+	display:none;
+	padding:2px 2px;
+	top:auto;
+}
+
+
+.list {
+	padding:0px 0px;
+	margin:0px;
+	list-style : none;
+}
+.list li a{
+	text-align : left;
+	padding:2px;
+	cursor:pointer;
+	display:block;
+	text-decoration : none;
+	color:#000000;
+}
+.selected{
+	background : #CCCFF2;
+}
+.bold{
+	font-weight:bold;
+	color: #131E9F;
+}
+
+body input:hover{
+	border: 1px solid #0B0C0A;
+	background : #FFFFFF;
+}

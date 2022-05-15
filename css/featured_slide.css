@@ -1,0 +1,55 @@
+/*
+Template Name: Growing Business
+File: Featured Slider CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+#featured_slide{
+	position:relative;
+	margin:0 auto 0;
+	display:block;
+	width:960px;
+	height:360px;
+	padding:22px 0 18px 0;
+	overflow:hidden;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#000033;
+	}
+
+#featured_slide a, #featured_slide ul, #featured_slide img{
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+	list-style:none;
+	text-decoration:none;
+	}
+
+/* ----------------------------------------------Content-------------------------------------*/
+		
+#featured_slide ul{
+	display:block;
+	width:960px;
+	height:360px;
+	}
+
+#featured_slide li{
+	display:block;
+	float:left;
+	width:45em;
+	height:30em;
+	}
+
+#featured_slide li img{
+	height:inherit;
+	width:inherit;
+	cursor:pointer;
+	}
+
+#featured_slide li.roundabout-in-focus img{
+	cursor:default;
+	}
